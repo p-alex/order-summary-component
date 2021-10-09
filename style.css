@@ -88,6 +88,9 @@ button {
   text-decoration: underline;
   font-weight: 700;
 }
+.plan__change__btn:hover {
+  text-decoration: none;
+}
 
 .card__btn {
   width: 100%;
@@ -101,11 +104,21 @@ button {
   background: hsl(245, 75%, 52%);
   color: white;
   box-shadow: 0 10px 10px hsl(224, 23%, 55%, 50%);
+  transition: background 300ms;
+}
+
+.btn--primary:hover {
+  background-color: hsl(245, 97%, 63%);
 }
 
 .btn--secondary {
   color: hsl(224, 23%, 55%);
   margin: 0;
+  transition: color 300ms;
+}
+
+.btn--secondary:hover {
+  color: hsl(223, 47%, 23%);
 }
 
 @media screen and (max-width: 700px) {
